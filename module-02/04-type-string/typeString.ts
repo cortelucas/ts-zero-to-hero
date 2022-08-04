@@ -8,16 +8,16 @@
  */
 
 // ==> Exemplo 01 - Single Quotes
-let completeName: string = 'Lucas Corte';
-console.log(completeName);
+let completeName: string = 'Lucas Corte'
+console.log(completeName)
 
 // ==> Exemplo 02 - Double Quotes
-let occupation: string = "Consultor de Soluções Digitais II";
-console.log(occupation);
+let occupation: string = "Consultor de Soluções Digitais II"
+console.log(occupation)
 
 // ==> Exemplo 03 - Back Ticks
-let companyName: string = 'Capgemini';
+let companyName: string = 'Capgemini'
 
-let employeeData: string = `Seja bem-vindo ${completeName}! Você será ${occupation} na empresa ${companyName}`; 
+let employeeData: string = `Seja bem-vindo ${completeName}! Você será ${occupation} na empresa ${companyName}` 
 
-console.log(employeeData);
+console.log(employeeData)
