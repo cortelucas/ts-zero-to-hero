@@ -26,17 +26,14 @@ console.log(personLucas)
 
 
 // ==> Exemplo 04 - Usando Tuplas com Spread Operator
-
 let frutas: [string, ...string[]] = ['🍍', '🍊', '🍎', '🍉', '🥭']
 console.log(...frutas)
 
 //==> Exemplo 05 - Lista Heterogênea de Tupla:
-
 let listaDeFrutas: [number, boolean, ...string[]] = [5, true, ...frutas]
 console.log(listaDeFrutas)
 
 // ==> Exemplo 06 - Uso de função com Tuplas
-
 function showPersons(names: string[], ages: number[]) {
     return [...names, ...ages]
 }
@@ -45,7 +42,6 @@ let result = showPersons(['Lucas', 'Jurema'], [28, 68])
 console.log(result)
 
 // ==> Exemplo 07 - Labeled Tuples com Spread Operator numa função
-
 type TypeName = 
         | [firstName: string, lastName: string]
         | [firstName: string, middleName: string, lastName: string]
