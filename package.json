@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/cortelucas/ts-zero-to-hero/issues"
   },
-  "homepage": "https://github.com/cortelucas/ts-zero-to-hero#readme"
+  "homepage": "https://github.com/cortelucas/ts-zero-to-hero#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
 }
