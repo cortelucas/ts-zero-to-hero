@@ -1,0 +1,20 @@
+{
+  "name": "ts-zero-to-hero",
+  "version": "1.0.0",
+  "description": "Curso de TypeScript ministrado pela instrutora Gláucia Lemos da Microsoft.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortelucas/ts-zero-to-hero.git"
+  },
+  "keywords": [],
+  "author": "Lucas Corte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cortelucas/ts-zero-to-hero/issues"
+  },
+  "homepage": "https://github.com/cortelucas/ts-zero-to-hero#readme"
+}
