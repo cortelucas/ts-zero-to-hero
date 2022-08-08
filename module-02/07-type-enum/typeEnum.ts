@@ -14,7 +14,7 @@ enum Language {
   English,
   French,
 }
-console.log(Language)
+console.log(Language);
 
 // ==> Exemplo 02: String Enums
 enum Day {
@@ -24,9 +24,9 @@ enum Day {
   Thursday = 'QUI',
   Friday = 'SEX',
   Saturday = 'SAB',
-  Sunday = 'Dom'
+  Sunday = 'Dom',
 }
-console.log(Day)
+console.log(Day);
 
 // ==> Exemplo 03: Como podemos acessar um valor de um Enum com uma chave: (usando o const)
 /*const enum Comida {
@@ -52,11 +52,11 @@ const enum Food {
 }
 
 function food(c: Food) {
-  return `${c} é uma comida muito apetitosa!`
+  return `${c} é uma comida muito apetitosa!`;
 }
 
-console.log(food(Food.Pizza))
-console.log(food(Food.Barbecue))
+console.log(food(Food.Pizza));
+console.log(food(Food.Barbecue));
 // console.log(comida(5))
 
 // ==> Exemplo 04: Quando usar enum?!
@@ -70,8 +70,8 @@ const finishedTask = {
   id: 1,
   status: Task.Done,
   description: 'Parabéns! Tarefa concluída com sucesso!',
-}
+};
 
 if (finishedTask.status === Task.Done) {
-  console.log('Enviar e-mail: Tarefa Concluída!')
+  console.log('Enviar e-mail: Tarefa Concluída!');
 }
