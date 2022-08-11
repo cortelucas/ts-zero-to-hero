@@ -103,7 +103,7 @@ Curso de TypeScript ministrado pela instrutora Gláucia Lemos da Microsoft.
   - Demo 5.8
 - 5.9 - Constructor Functions
   - Demo 5.9
-- 5.10 - Usando classes como Interfaces 
+- 5.10 - Usando classes como Interfaces
   - Demo 5.10
 </details>
 
@@ -167,7 +167,7 @@ Curso de TypeScript ministrado pela instrutora Gláucia Lemos da Microsoft.
 - 9.5 - Usando aliases Class Modules em - TypeScript - Demo 9.5
 </details>
 
-<details><summary><b> Módulo 10: TypeScript em Node.js</b></summary>
+<details><summary><b>Módulo 10: TypeScript em Node.js</b></summary>
 
 - 10.1 - Como podemos usar o Node.js com TypeScript
   - Demo 10.1
