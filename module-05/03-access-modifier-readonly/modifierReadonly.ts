@@ -32,7 +32,6 @@ const functionary = new Functionary(new Date(1986, 10, 24));
 console.log(functionary);
 
 // ==> Exemplo 03
-
 class Official {
   name: string;
   readonly officialCode: number;
@@ -50,7 +49,6 @@ func.name = 'Lucas Corte';
 console.log(func);
 
 // ==> Exemplo 04 - Interface
-
 interface IEmployee {
   employeeCode: number;
   employeeName: string;
