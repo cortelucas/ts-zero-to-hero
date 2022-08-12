@@ -1,4 +1,3 @@
-
 /**
  * arquivo: booleanType.ts
  * descrição: arquivo responsável por ensinar conceitos básicos sobre 'Tipo Boolean'
@@ -9,17 +8,17 @@
  */
 
 // ==> Exemplo 01
-let taskCompleted: boolean = true
-let taskOpen: boolean = false
+const taskCompleted = true;
+const taskOpen = false;
 
-console.log(taskCompleted)
-console.log(taskOpen)
+console.log(taskCompleted);
+console.log(taskOpen);
 
 // ==> Exemplo 02
-let complete: boolean = true
+const complete = true;
 
 if (!complete) {
-    console.log('Tarefa foi concluída com sucesso!')
+  console.log('Tarefa foi concluída com sucesso!');
 } else {
-    console.log('Tarefa Pendente!');
+  console.log('Tarefa Pendente!');
 }

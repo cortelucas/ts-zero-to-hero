@@ -9,8 +9,8 @@
  */
 
 // ==> Variáveis [Type Annotations]
-const firstName: string = 'Lucas'
-const lastName: string = 'Corte'
+const firstName = 'Lucas'
+const lastName = 'Corte'
 console.log(`Olá ${firstName} ${lastName}`)
 
 // ==> Arrays [Type Annotations]
@@ -18,13 +18,12 @@ const animals: string[] = ['elefante', 'gato', 'cachorro', 'passaro']
 console.log(animals)
 
 // ==> Objetos [Type Annotations]
-let car: {
-  name: string,
-  year: number,
-  price: number,
+type CarType = {
+  name: string
+  year: number
+  price: number
 }
-
-car = {
+const car: CarType = {
   name: 'Ford Edge',
   year: 2020,
   price: 100000,

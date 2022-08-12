@@ -7,6 +7,7 @@
  * doc referência: https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple
  * Transpilação do arquivo: <Windows> CTRL + SHIFT + B -> tsc: build/watch
  */
+export {}
 
 // ==> Exemplo 01 - Uso simples de Tuplas em TypeScript
 let lucas: [string, string, number]
@@ -21,16 +22,16 @@ person = ['Lucas Corte', 'Consultor de Soluções Digitais II', 28]
 console.log(person[1])
 
 // ==> Exemplo 03 - Outra forma de usar Tuplas em TypeScrit (com labels)
-let personLucas: [name: string, position: string, age: number] = ['Lucas Corte', 'Consultor de Soluções Digitais II', 28]
+const personLucas: [name: string, position: string, age: number] = ['Lucas Corte', 'Consultor de Soluções Digitais II', 28]
 console.log(personLucas)
 
 
 // ==> Exemplo 04 - Usando Tuplas com Spread Operator
-let frutas: [string, ...string[]] = ['🍍', '🍊', '🍎', '🍉', '🥭']
+const frutas: [string, ...string[]] = ['🍍', '🍊', '🍎', '🍉', '🥭']
 console.log(...frutas)
 
 //==> Exemplo 05 - Lista Heterogênea de Tupla:
-let listaDeFrutas: [number, boolean, ...string[]] = [5, true, ...frutas]
+const listaDeFrutas: [number, boolean, ...string[]] = [5, true, ...frutas]
 console.log(listaDeFrutas)
 
 // ==> Exemplo 06 - Uso de função com Tuplas
@@ -38,11 +39,11 @@ function showPersons(names: string[], ages: number[]) {
     return [...names, ...ages]
 }
 
-let result = showPersons(['Lucas', 'Jurema'], [28, 68])
+const result = showPersons(['Lucas', 'Jurema'], [28, 68])
 console.log(result)
 
 // ==> Exemplo 07 - Labeled Tuples com Spread Operator numa função
-type TypeName = 
+type TypeName =
         | [firstName: string, lastName: string]
         | [firstName: string, middleName: string, lastName: string]
 
